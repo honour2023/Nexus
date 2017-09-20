@@ -31,7 +31,3 @@ class Fellow(Person):
     def teach(self,happiness_level):
         happiness_level -= 1
 
-eit = Fellow("ibrahim", "NG")
-eit.name = input("what is your name: ")
-eit.nationality = input("which country do you come from: ")
-print(eit.name + " is an EIT from" + eit.nationality)
